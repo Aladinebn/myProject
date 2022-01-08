@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- swiper for images -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icon.png" />
+    <title>GomyCode | Project one</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img src="/images/logo.png" class="logo" alt=""
+        /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#partnership">PARTNERSHIP</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Grow your busniss at your desk</h1>
+        <p>
+          A complete and easy to use solution for quickly<br />
+          order your product and get a free consulting plan.
+        </p>
+        <a href="#" class="hero-btn">Visit us to know more</a>
+      </div>
+    </section>
+    <!-- end header -->
+    <!--start features-->
+    <section class="features" id="about">
+      <div class="row">
+        <div class="feat-col">
+          <i class="fas fa-magic fa-3x"></i>
+          <h3>Tell Us Your Product</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+        <div class="feat-col">
+          <i class="far fa-gem fa-3x"></i>
+          <h3>We Will Do All The Work</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+        <div class="feat-col">
+          <i class="fas fa-globe-asia fa-3x"></i>
+          <h3>Your Product is Worldwide</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end features -->
+    <!-- Start why us services -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="special-heading">Why Us ?</h2>
+        <p>Don't be busy, be productive</p>
+        <div class="services-content">
+          <div class="srv">
+            <i class="fas fa-bolt fa-2x"></i>
+            <div class="text">
+              <h3>Electrical Engineers</h3>
+              <p>
+                Electrical engineers help keep our world running. From the tiny
+                microchips inside our cell phones to large aircraft electrical
+                systems, electrical engineers not only create these devices and
+                navigation systems, but keep them running smoothly.
+              </p>
+            </div>
+          </div>
+          <div class="srv">
+            <i class="fas fa-cogs fa-2x"></i>
+            <div class="text">
+              <h3>Mechanical Engineers</h3>
+              <p>
+                Mechanical engineering plays a critical role in manufactured
+                technologies, from cars to airplanes to refrigerators.<br />
+                It enables you to do many daily activities with ease, as it
+                brings helpful technologies to our modern society.
+              </p>
+            </div>
+          </div>
+          <div class="srv">
+            <i class="fas fa-tools fa-2x"></i>
+            <div class="text">
+              <h3>Construction</h3>
+              <p>
+                Construction is a general term meaning the art and science to
+                form objects, systems, or organizations.
+              </p>
+            </div>
+          </div>
+          <div class="srv">
+            <i class="fas fa-phone-volume fa-2x"></i>
+            <div class="text">
+              <h3>Consulting</h3>
+              <p>
+                A consulting firm or simply consultancy is a professional
+                service firm that provides expert advice for a fee.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services -->
+    <section>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/images/slider-1.jpg" />
+            <div class="text-box">
+              <h1>We build<br /><span>TRUST</span></h1>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/slider-2.jpg" />
+            <div class="text-box">
+              <h1>We give<br /><span>HOPE</span></h1>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/slider-3.jpg" />
+            <div class="text-box">
+              <h1>We provide<br /><span>SECURITY</span></h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- end swiper -->
+    <section class="team">
+      <div class="container">
+        <h2 class="special-heading">Team</h2>
+        <p>Meet Our Team</p>
+        <div class="col">
+          <div class="team-col">
+            <div class="member">
+              <img src="/images/member-1.jpg" alt="" />
+              <h3>ADAM JONSON</h3>
+              <p>Developer</p>
+            </div>
+            <div class="member color">
+              <img src="/images/member-2.jpg" alt="" />
+              <h3>linda larson</h3>
+              <p>Manager</p>
+            </div>
+            <div class="member">
+              <img src="/images/member-3.jpg" alt="" />
+              <h3>marry hudson</h3>
+              <p>Designer</p>
+            </div>
+            <div class="member color">
+              <img src="/images/member-4.jpg" alt="" />
+              <h3>james larson</h3>
+              <p>Designer</p>
+            </div>
+          </div>
+          <div class="team-col">
+            <div class="member color">
+              <img src="/images/member-5.jpg" alt="" />
+              <h3>paul perry</h3>
+              <p>Marketing Manager</p>
+            </div>
+            <div class="member">
+              <img src="/images/member-6.jpg" alt="" />
+              <h3>loo scavo</h3>
+              <p>Financial Officer</p>
+            </div>
+            <div class="member color">
+              <img src="/images/member-7.jpg" alt="" />
+              <h3>mia beaufort</h3>
+              <p>Purchasing Manager</p>
+            </div>
+            <div class="member">
+              <img src="/images/member-8.jpeg" alt="" />
+              <h3>jess perry</h3>
+              <p>HR Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- recent project -->
+    <section class="project">
+      <div class="container">
+        <h1 class="special-heading">Recent Projects</h1>
+        <h3>We Offer a Wide Range of Services</h3>
+        <p class="text">
+          From conception to completion, our entire team of estimators,
+          designers, project managers and experienced executives make our
+          clients’ needs a priority. We have experience in a wide variety of
+          projects and delivery methods, and use both time-proven practices and
+          cutting-edge techniques to make sure our customers’ projects meet
+          their maximum potential.
+        </p>
+      </div>
+      <ul class="list">
+        <li><img class="content" src="/images/project-1.jpg" alt="" /></li>
+        <li><img class="content" src="/images/project-2.jpg" alt="" /></li>
+        <li><img class="content" src="/images/project-3.jpg" alt="" /></li>
+        <li><img class="content" src="/images/project-4.jpg" alt="" /></li>
+        <li><img class="content" src="/images/project-5.jpg" alt="" /></li>
+        <li><img class="content" src="/images/project-6.jpg" alt="" /></li>
+      </ul>
+      <button class="button" id="myBtn">Get in touch</button>
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div>
+            <a href="/index.html"
+              ><img class="logo" src="/images/logo.png" alt=""
+            /></a>
+            <span class="close">&times;</span>
+          </div>
+          <h2>Choose wisely</h2>
+          <p>join our amazing community</p>
+          <form action="/action_page.php">
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required="mail"
+              placeholder="enter your mail"
+            />
+            <input type="submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- end projects -->
+    <!-- start succes -->
+    <section class="success">
+      <div class="container">
+        <h2 class="special-heading">Consulting Successes</h2>
+        <p>
+          Success is a very powerful word. Many of us run behind it; most of us
+          want to conquer it. So, what is success all about? Does this mean
+          acquiring money or fame? Success means different things to different
+          people.
+        </p>
+        <div class="succ-container "> 
+          <div class="succ">
+            <i class="fas fa-tasks fa-5x"></i>
+            <h3>Projects</h3>
+            <div class="number">100</div>
+          </div> 
+          <div class="succ">
+            <i class="fas fa-users fa-5x"></i>
+            <h3>Clients</h3>
+            <div class="number">40</div>
+          </div> 
+          <div class="succ">
+            <i class="fas fa-user-tie fa-5x"></i>
+            <h3>Team</h3>
+            <div class="number">20</div>
+          </div> 
+          <div class="succ">
+            <i class="fas fa-award fa-5x"></i>
+            <h3>Awards</h3>
+            <div class="number">76</div>
+          </div>
+        </div> 
+        </div>
+      </div>
+      
+    </section>
+    <!-- end success -->
+    <!-- start partnership -->
+    <section class="partnership" id="partnership">
+      <h2 class="special-heading">Partnership</h2>
+      <div class="container">
+        <img src="/images/company-1.png" alt="">
+        <img src="/images/company-2.png" alt="">
+        <img src="/images/company-3.png" alt="">
+        <img src="/images/company-4.png" alt="">
+      </div>
+    </section>
+    <!-- end partnership -->
+    <!-- start pricing -->
+    <section class="pricing">
+        <h2 class="special-heading">Pricing</h2>
+        <div class="container">
+          <div class="price">
+            <div class="plan-box">  
+              <h2>$0</h2>
+              <p>FREE</p>
+            </div>
+            <div class="option-box">
+              <div><i class="fas fa-check"></i>limited Support</div>
+              <div><i class="fas fa-check"></i>1 User Per project</div>
+              <div><i class="fas fa-times"></i>5GB Server Space</div>
+              <div><i class="fas fa-times"></i>Email Integration</div>
+              <div><i class="fas fa-times"></i>Unlimited Download</div>
+            </div>
+            <button class="bn54">
+              <span class="bn54span">CHOOSE PLAN</span>
+            </button>
+          </div>
+          <div class="price">
+            <div class="plan-box">  
+              <h2>$29</h2>
+              <p>PER MONTH</p>
+            </div>
+            <div class="option-box">
+              <div><i class="fas fa-check"></i>Unlimited Support</div>
+              <div><i class="fas fa-check"></i>5 User Per project</div>
+              <div><i class="fas fa-check"></i>10GB Server Space</div>
+              <div><i class="fas fa-check"></i>Email Integration</div>
+              <div><i class="fas fa-times"></i>Unlimited Download</div>
+            </div>
+            <button class="bn54">
+              <span class="bn54span">CHOOSE PLAN</span>
+            </button>
+          </div>
+          <div class="price">
+            <div class="plan-box">  
+              <h2>$339</h2>
+              <p>PER YEAR</p>
+            </div>
+            <div class="option-box">
+              <div><i class="fas fa-check"></i>Unlimited Support</div>
+              <div><i class="fas fa-check"></i>10 User Per project</div>
+              <div><i class="fas fa-check"></i>25GB Server Space</div>
+              <div><i class="fas fa-check"></i>Email Integration</div>
+              <div><i class="fas fa-check"></i>Unlimited Download</div>
+            </div>
+            <button class="bn54">
+              <span class="bn54span">CHOOSE PLAN</span>
+            </button>
+          </div>
+      </div>
+    </section>
+    <!-- end pricing -->
+    <section class="contact" id="contact">
+      <h2 class="special-heading">Conatct Us</h2>
+      <div class="container">
+        <form class="form" id="form" action="/">
+          <div class="input-control">
+              <label for="username">Username</label>
+              <input id="username" name="username" type="text">
+              <div class="error"></div>
+          </div>
+          <div class="input-control">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="text">
+              <div class="error"></div>
+          </div>
+          <div class="input-control">
+              <label for="password">Password</label>
+              <input id="password"name="password" type="password">
+              <div class="error"></div>
+          </div>
+          <div class="input-control">
+              <label for="password2">Password again</label>
+              <input id="password2"name="password2" type="password">
+              <div class="error"></div>
+          </div>
+          <div class="form-group">
+            <label for="textarea">Your Message</label>
+            <textarea class="form-control" id="textarea" ></textarea>
+          </div>
+          <button type="submit" class="cta">
+            <span>Submit</span>
+            <svg width="15px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
+        </form>
+        <img src="/images/contact-us.jpg" alt="">
+      </div>
+    </section>
+    <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="navigation-footer">
+      <img src="/images/logo.png" style="height: 45px;" alt="">        
+      <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#partnership">Partnership</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="social-footer"> 
+        <ul>
+          <li><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" fill="#FFF" fill-rule="nonzero"/></svg></li>
+          <li><svg width="24" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z" fill="#FFF" fill-rule="nonzero"/></svg></li>
+          <li><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" fill="#FFF" fill-rule="nonzero"/></svg></li>
+          <li><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" fill="#FFF" fill-rule="nonzero"/></svg></li>
+        </ul>
+        <p> © 2022 KET. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  
+    <!-- toogle menu for the mobile view -->
+    <script>
+      var navLinks = document.getElementById("nav-links");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
